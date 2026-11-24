@@ -1,0 +1,138 @@
+// About-page service columns and the inquiry band.
+// Type size and family come from Savoy headings and body text.
+
+.jd-services-row > .nm_column,
+.jd-cta-row > .nm_column {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.jd-services {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1220px;
+	margin: 24px auto 72px;
+	padding: 0;
+}
+
+.jd-services__list {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.jd-services__item {
+	box-sizing: border-box;
+	min-width: 0;
+	padding: 0;
+
+	&:not(:first-child) {
+		border-left: 1px solid var(--nm--inputs-border-color, #e1e1e1);
+	}
+
+	&:first-child {
+		padding-right: 24px;
+	}
+
+	&:last-child {
+		padding-left: 24px;
+	}
+
+	&:nth-child(2n) {
+		padding: 0 24px;
+	}
+
+	h4 {
+		margin: 0 0 8px;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.jd-services__icon {
+	display: flex;
+	align-items: center;
+	height: 56px;
+	margin-bottom: 18px;
+
+	img {
+		display: block;
+		width: auto;
+		max-width: 88px;
+		height: 52px;
+		object-fit: contain;
+	}
+}
+
+.jd-cta {
+	box-sizing: border-box;
+	width: 100vw;
+	max-width: 100vw;
+	margin-left: calc(50% - 50vw);
+	padding: 80px 40px;
+	background: #f5f2ed;
+	text-align: center;
+
+	h2 {
+		margin: 0 0 16px;
+	}
+}
+
+.jd-cta__inner {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.jd-cta__eyebrow {
+	margin: 0 0 18px;
+	color: #282828;
+	font-size: 13px;
+	line-height: 1.4;
+	letter-spacing: 0.14em;
+}
+
+.jd-cta__text {
+	max-width: 640px;
+	margin: 0 auto 28px;
+}
+
+.jd-cta__button {
+	white-space: nowrap;
+}
+
+.jd-cta__button .nm_btn_title {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.jd-cta__arrow {
+	display: block;
+	flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+	.jd-services {
+		margin-bottom: 48px;
+	}
+
+	.jd-services__list {
+		grid-template-columns: 1fr;
+		row-gap: 40px;
+	}
+
+	.jd-services__item,
+	.jd-services__item:not(:first-child) {
+		padding: 0;
+		border-left: 0;
+	}
+
+	.jd-cta {
+		padding: 56px 20px;
+	}
+
+	.jd-cta__button {
+		white-space: normal;
+	}
+}
