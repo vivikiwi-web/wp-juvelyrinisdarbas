@@ -1,0 +1,9 @@
+// Public design tokens, reusable by every component and Savoy's native styles.
+// Keep raw values here; component files reference the semantic custom properties.
+:root {
+  --jd-radius-sm: 6px;
+  --jd-radius-md: 12px;
+
+  --jd-radius-button: var(--jd-radius-sm);
+  --jd-radius-hero: var(--jd-radius-md);
+}

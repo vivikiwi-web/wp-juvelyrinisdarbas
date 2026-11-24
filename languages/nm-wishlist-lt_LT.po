@@ -1,0 +1,71 @@
+# Lithuanian supplement maintained in the child theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Juvelyrinis darbas\n"
+"PO-Revision-Date: 2026-11-24 00:00+0200\n"
+"Last-Translator: Juvelyrinis darbas\n"
+"Language-Team: Lithuanian\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
+"X-Domain: nm-wishlist\n"
+
+msgid "Add to Wishlist"
+msgstr "Pridėti prie mėgstamiausių"
+
+msgid "Remove from Wishlist"
+msgstr "Pašalinti iš mėgstamiausių"
+
+msgid "Wishlist"
+msgstr "Mėgstamiausi"
+
+msgid "In stock"
+msgstr "Turime"
+
+msgid "Out of stock"
+msgstr "Neturime"
+
+msgid "Share"
+msgstr "Dalintis"
+
+msgid "Share on Facebook"
+msgstr "Dalintis Facebook"
+
+msgid "Share on Twitter"
+msgstr "Dalintis Twitter"
+
+msgid "Pin on Pinterest"
+msgstr "Išsaugoti Pinterest"
+
+msgid "Share on Google+"
+msgstr "Dalintis Google+"
+
+msgid "Share via Email"
+msgstr "Dalintis el. paštu"
+
+msgid "The wishlist is currently empty."
+msgstr "Mėgstamiausių sąrašas kol kas tuščias."
+
+#, php-format
+msgid "Click the %s icons to add products"
+msgstr "Norėdami pridėti gaminių, spustelėkite %s piktogramas"
+
+msgid "Return to Shop"
+msgstr "Grįžti į katalogą"
+
+msgid "Savoy Theme - Wishlist"
+msgstr "Savoy tema – mėgstamiausi"
+
+msgid "http://themeforest.net/item/savoy-minimalist-ajax-woocommerce-theme/12537825"
+msgstr "http://themeforest.net/item/savoy-minimalist-ajax-woocommerce-theme/12537825"
+
+msgid "Wishlist plugin for the Savoy theme."
+msgstr "Mėgstamiausių sąrašo įskiepis Savoy temai."
+
+msgid "NordicMade"
+msgstr "NordicMade"
+
+msgid "http://www.nordicmade.com"
+msgstr "http://www.nordicmade.com"

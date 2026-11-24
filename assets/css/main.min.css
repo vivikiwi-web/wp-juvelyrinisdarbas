@@ -1,0 +1,1 @@
+:root{--jd-radius-sm: 6px;--jd-radius-md: 12px;--jd-radius-button: var(--jd-radius-sm);--jd-radius-hero: var(--jd-radius-md)}body{--nm--border-radius-button: var(--jd-radius-button)}.nm-banner,.nm-banner-slider{border-radius:var(--jd-radius-hero)}.nm-banner-slider>.slick-list,.nm-banner-slider>.flickity-viewport{border-radius:inherit}.nm-banner-slider .nm-banner{border-radius:0}
