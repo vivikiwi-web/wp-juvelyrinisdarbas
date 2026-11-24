@@ -1,0 +1,16 @@
+#jd-catalog-data .jd-fields-editor {
+  padding: 12px;
+  max-width: 880px;
+  > p { padding: 0; margin: 12px 0 20px; }
+  .jd-field-row { border: 1px solid #dcdcde; border-radius: 4px; padding: 16px; margin-bottom: 14px; background: #fff; }
+  .jd-field-row-heading { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+  label { display: block; float: none; width: auto; margin: 0 0 12px; }
+  input[type=text], select, textarea { display: block; float: none; width: 100%; margin: 6px 0 0; }
+  input[type=checkbox] { float: none; margin: 0 6px 0 0; }
+  .jd-field-row-heading label { margin-bottom: 0; }
+  .jd-field-limits:not([hidden]) { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .jd-field-condition { margin-top: 16px; padding-top: 16px; border-top: 1px solid #e5e5e5; }
+  .jd-condition-details:not([hidden]) { display: grid; grid-template-columns: minmax(100px, 1fr) minmax(0, 2fr); gap: 12px; }
+  small { display: block; margin: 6px 0 16px; color: #646970; }
+  [hidden] { display: none; }
+}
