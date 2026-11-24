@@ -1,7 +1,8 @@
 // Single entry point. Add each component once, using Sass modules.
-@use 'settings/tokens';
-@use 'components/buttons';
-@use 'components/hero';
-@use 'components/catalog';
-@use 'components/preference-editor';
-@use 'components/page-sections';
+@use "settings/tokens";
+@use "components/buttons";
+@use "components/hero";
+@use "components/catalog";
+@use "components/preference-editor";
+@use "components/page-sections";
+@use "components/cart";
