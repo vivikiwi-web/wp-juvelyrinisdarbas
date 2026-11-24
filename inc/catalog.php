@@ -82,7 +82,7 @@ function jd_catalog_stock_badge() {
     $stock = $product->get_stock_status();
     if ( ! in_array( $stock, array( 'instock', 'outofstock' ), true ) ) { return; }
     $single = doing_action( 'woocommerce_single_product_summary' );
-    $label = 'instock' === $stock ? ( $single ? 'Turime vietoje' : 'Turime' ) : ( $single ? 'Šiuo metu vietoje neturime' : 'Neturime' );
+    $label = 'instock' === $stock ? ( $single ? 'Turime vietoje' : 'Turime' ) : 'Užsakoma';
     echo '<span class="jd-stock-badge jd-stock-badge--' . esc_attr( $stock ) . '">' . esc_html( $label ) . '</span>';
 }
 add_action( 'woocommerce_before_shop_loop_item_title', 'jd_catalog_stock_badge', 12 );

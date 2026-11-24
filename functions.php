@@ -29,6 +29,7 @@ require_once get_stylesheet_directory() . '/inc/translations.php';
 require_once get_stylesheet_directory() . '/inc/admin.php';
 require_once get_stylesheet_directory() . '/inc/preference-fields.php';
 require_once get_stylesheet_directory() . '/inc/catalog.php';
+require_once get_stylesheet_directory() . '/inc/catalog-order.php';
 require_once get_stylesheet_directory() . '/inc/inquiry.php';
 require_once get_stylesheet_directory() . '/inc/page-sections.php';
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
