@@ -1,0 +1,6 @@
+// Savoy uses this token for .button, submit inputs, nm_btn and banner CTA buttons.
+// Set it on body so it overrides the parent theme's root value regardless of
+// stylesheet order, while leaving icon-only controls and slider dots untouched.
+body {
+  --nm--border-radius-button: var(--jd-radius-button);
+}

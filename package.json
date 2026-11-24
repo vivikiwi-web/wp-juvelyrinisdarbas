@@ -1,0 +1,17 @@
+{
+  "name": "juvelyrinis-darbas-savoy-child",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Component SCSS build for the Juvelyrinis darbas child theme",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "build": "sass --style=compressed --no-source-map --no-error-css assets/scss/main.scss assets/css/main.min.css",
+    "watch": "sass --watch --poll --style=compressed --source-map --no-error-css assets/scss/main.scss assets/css/main.min.css",
+    "dev": "npm run watch"
+  },
+  "devDependencies": {
+    "sass": "1.108.2"
+  }
+}

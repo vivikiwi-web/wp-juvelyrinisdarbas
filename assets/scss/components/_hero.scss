@@ -1,0 +1,19 @@
+// Standalone banners and the outer edge of the complete slider share one radius.
+.nm-banner,
+.nm-banner-slider {
+  border-radius: var(--jd-radius-hero);
+}
+
+.nm-banner-slider {
+  // Clip images at the viewport, not the whole component: on mobile Savoy places
+  // pagination outside the image. Preserve its overflow and padding rules.
+  > .slick-list,
+  > .flickity-viewport {
+    border-radius: inherit;
+  }
+
+  // Slides meet without rounded seams during horizontal transitions.
+  .nm-banner {
+    border-radius: 0;
+  }
+}

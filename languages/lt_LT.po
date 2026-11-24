@@ -1,0 +1,1283 @@
+# Lithuanian interface translations for Savoy, maintained in the child theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Juvelyrinis darbas / Savoy 3.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 00:00+0200\n"
+"PO-Revision-Date: 2026-11-24 00:00+0200\n"
+"Last-Translator: Juvelyrinis darbas\n"
+"Language-Team: Lithuanian\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
+"X-Domain: nm-framework\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Savoy"
+msgstr "Savoy"
+
+#. Theme URI of the theme
+#: style.css
+msgid "http://themeforest.net/item/savoy-minimalist-ajax-woocommerce-theme/12537825"
+msgstr "http://themeforest.net/item/savoy-minimalist-ajax-woocommerce-theme/12537825"
+
+#. Description of the theme
+#: style.css
+msgid "Savoy - Modern AJAX enabled WooCommerce theme."
+msgstr "Savoy – šiuolaikiška WooCommerce tema su AJAX funkcijomis."
+
+#. Author of the theme
+#: style.css
+msgid "NordicMade"
+msgstr "NordicMade"
+
+#. Author URI of the theme
+#: style.css
+msgid "http://www.nordicmade.com"
+msgstr "http://www.nordicmade.com"
+
+#: 404.php:9
+msgid "Page not found."
+msgstr "Puslapis nerastas."
+
+#: 404.php:10
+msgid "It looks like nothing was found at this location. Click the link below to return home."
+msgstr "Šiuo adresu nieko nerasta. Norėdami grįžti į pagrindinį puslapį, spustelėkite žemiau esančią nuorodą."
+
+#: 404.php:11
+msgid "Home"
+msgstr "Pradžia"
+
+#: archive.php:11
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Dienos archyvas: %s"
+
+#: archive.php:13
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Mėnesio archyvas: %s"
+
+#: archive.php:15
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Metų archyvas: %s"
+
+#: archive.php:17
+msgid "Archives"
+msgstr "Archyvai"
+
+#: author.php:8
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Autoriaus archyvas: %s"
+
+#: comments.php:18
+#, php-format
+msgctxt "comments title"
+msgid "One reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s atsakymas į &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s atsakymai į &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s atsakymų į &ldquo;%2$s&rdquo;"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Komentarų naršymas"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Ankstesni komentarai"
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr "Komentuoti negalima."
+
+#: functions.php:1038
+msgid "Top Bar"
+msgstr "Viršutinė juosta"
+
+#: functions.php:1039
+msgid "Header Main"
+msgstr "Pagrindinė antraštės sritis"
+
+#: functions.php:1040
+msgid "Header Secondary"
+msgstr "Papildoma antraštės sritis"
+
+#: functions.php:1043
+msgid "Footer Bar"
+msgstr "Poraštės juosta"
+
+#: functions.php:1160
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: functions.php:1161 includes/translation-strings-dummy.php:55
+#: includes/woocommerce/woocommerce-template-functions.php:130
+msgid "All"
+msgstr "Visi"
+
+#: functions.php:1191
+msgid "Pingback:"
+msgstr "Atgalinė nuoroda:"
+
+#: functions.php:1191 functions.php:1222
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: functions.php:1203
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s, %2$s"
+
+#: functions.php:1208
+msgid "Your comment is awaiting moderation"
+msgstr "Jūsų komentaras laukia patvirtinimo"
+
+#: functions.php:1255
+msgid "Page"
+msgstr "Puslapis"
+
+#: functions.php:1265
+msgid "Blog"
+msgstr "Tinklaraštis"
+
+#: functions.php:1276 functions.php:1294
+msgid "Shop"
+msgstr "Katalogas"
+
+#: functions.php:1305
+msgid "Footer"
+msgstr "Poraštė"
+
+#: functions.php:1315
+msgid "\"Widgetised Sidebar\" Element"
+msgstr "Elementas „Šoninė juosta su valdikliais“"
+
+#: includes/custom-styles.php:1409
+msgid "Required field."
+msgstr "Privalomas laukas."
+
+#: includes/custom-styles.php:1410 includes/translation-strings-dummy.php:7
+#: woocommerce/cart/cart.php:34
+msgid "Shopping Cart"
+msgstr "Krepšelis"
+
+#: includes/helpers.php:83 includes/translation-strings-dummy.php:32
+msgid "Share on Twitter"
+msgstr "Dalintis Twitter"
+
+#: includes/translation-strings-dummy.php:8
+msgid "Enter coupon"
+msgstr "Įveskite nuolaidos kodą"
+
+#: includes/translation-strings-dummy.php:11
+msgid "Payment"
+msgstr "Mokėjimas"
+
+#: includes/translation-strings-dummy.php:14
+msgid "Updating&hellip;"
+msgstr "Atnaujinama&hellip;"
+
+#: includes/translation-strings-dummy.php:17 pagination.php:8
+msgid "Load More"
+msgstr "Rodyti daugiau"
+
+#: includes/translation-strings-dummy.php:18
+msgid "All products loaded."
+msgstr "Visi gaminiai įkelti."
+
+#: includes/translation-strings-dummy.php:21
+#: woocommerce/myaccount/form-login.php:77
+#: woocommerce/myaccount/form-login.php:133
+msgid "Or"
+msgstr "Arba"
+
+#: includes/translation-strings-dummy.php:22
+#: woocommerce/myaccount/form-login.php:79
+msgid "Create an account"
+msgstr "Sukurti paskyrą"
+
+#: includes/translation-strings-dummy.php:25
+#: woocommerce/order/form-tracking.php:29
+msgid "Order Tracking"
+msgstr "Užsakymo sekimas"
+
+#: includes/translation-strings-dummy.php:28
+#: woocommerce/quickview/content-quickview.php:34
+msgid "Details"
+msgstr "Išsamiau"
+
+#: includes/translation-strings-dummy.php:31
+#: includes/woocommerce/woocommerce-functions.php:320
+#: woocommerce/single-product/share.php:36
+msgid "Share on Facebook"
+msgstr "Dalintis Facebook"
+
+#: includes/translation-strings-dummy.php:33
+#: woocommerce/single-product/share.php:38
+msgid "Pin on Pinterest"
+msgstr "Išsaugoti Pinterest"
+
+#: includes/translation-strings-dummy.php:36
+#: includes/woocommerce/woocommerce-template-functions.php:684
+msgid "Watch Video"
+msgstr "Žiūrėti vaizdo įrašą"
+
+#: includes/translation-strings-dummy.php:39
+#: template-parts/woocommerce/searchform.php:49
+#: template-parts/woocommerce/searchform.php:60
+#: woocommerce/content-product_nm_filters_popup.php:26
+#: woocommerce/product-searchform_nm.php:13
+#, php-format
+msgid "press %sEnter%s to search"
+msgstr "norėdami ieškoti, paspauskite %sEnter%s"
+
+#: includes/translation-strings-dummy.php:42
+msgctxt "breadcrumb"
+msgid "Shop"
+msgstr "Katalogas"
+
+#: includes/translation-strings-dummy.php:45
+#: woocommerce/content-product_nm_results_bar.php:95
+#, php-format
+msgid "Filters active %s(%s)%s"
+msgstr "Aktyvūs filtrai %s(%s)%s"
+
+#: includes/translation-strings-dummy.php:46
+#, php-format
+msgid "Search results for %s&ldquo;%s&rdquo;%s"
+msgstr "Paieškos rezultatai: %s&ldquo;%s&rdquo;%s"
+
+#: includes/translation-strings-dummy.php:47
+#, php-format
+msgid "Showing %s&ldquo;%s&rdquo;%s"
+msgstr "Rodoma: %s&ldquo;%s&rdquo;%s"
+
+#: includes/translation-strings-dummy.php:48
+#, php-format
+msgid "Products tagged %s&ldquo;%s&rdquo;%s"
+msgstr "Gaminiai su žyma %s&ldquo;%s&rdquo;%s"
+
+#: includes/translation-strings-dummy.php:51
+msgid "Filter Products"
+msgstr "Filtruoti gaminius"
+
+#: includes/translation-strings-dummy.php:52
+msgid "Reset Filters"
+msgstr "Išvalyti filtrus"
+
+#: includes/translation-strings-dummy.php:58
+msgid "Sort By"
+msgstr "Rikiuoti pagal"
+
+#: includes/translation-strings-dummy.php:60
+msgid "Default"
+msgstr "Numatytąją tvarką"
+
+#: includes/translation-strings-dummy.php:61
+msgid "Popularity"
+msgstr "Populiarumą"
+
+#: includes/translation-strings-dummy.php:62
+msgid "Average rating"
+msgstr "Vidutinį įvertinimą"
+
+#: includes/translation-strings-dummy.php:63
+msgid "Newness"
+msgstr "Naujumą"
+
+#: includes/translation-strings-dummy.php:64
+msgid "Price: Low to High"
+msgstr "Kainą: nuo mažiausios"
+
+#: includes/translation-strings-dummy.php:65
+msgid "Price: High to Low"
+msgstr "Kainą: nuo didžiausios"
+
+#: includes/translation-strings-dummy.php:68
+msgid "More &nbsp;&rarr;"
+msgstr "Plačiau &nbsp;&rarr;"
+
+#: includes/translation-strings-dummy.php:71
+msgid " and tagged "
+msgstr " ir pažymėta žymomis "
+
+#: includes/translation-strings-dummy.php:72
+msgid "Tagged "
+msgstr "Žymos: "
+
+#: includes/translation-strings-dummy.php:73
+msgid "&larr;&nbsp; Newer"
+msgstr "&larr;&nbsp; Naujesni"
+
+#: includes/translation-strings-dummy.php:74
+msgid "Older &nbsp;&rarr;"
+msgstr "Ankstesni &nbsp;&rarr;"
+
+#: includes/translation-strings-dummy.php:77
+msgid "Oops, page not found."
+msgstr "Deja, puslapis nerastas."
+
+#: includes/translation-strings-dummy.php:78
+msgid "Homepage &nbsp;&nbsp;&rarr;"
+msgstr "Į pagrindinį puslapį &nbsp;&nbsp;&rarr;"
+
+#: includes/visual-composer/element-templates/vc_toggle.php:6
+msgid "Click to toggle"
+msgstr "Spustelėkite, kad išskleistumėte arba suskleistumėte"
+
+#: includes/visual-composer/page-templates.php:44
+msgid "About"
+msgstr "Apie mus"
+
+#: includes/visual-composer/page-templates.php:51
+msgid "Contact"
+msgstr "Kontaktai"
+
+#: includes/visual-composer/page-templates.php:58
+msgid "FAQ"
+msgstr "Dažniausiai užduodami klausimai"
+
+#: includes/visual-composer/params/iconpicker.php:22
+#: includes/visual-composer/params/iconpicker.php:35
+#: includes/visual-composer/params/iconpicker.php:165
+#: includes/visual-composer/params/iconpicker.php:173
+msgid "close"
+msgstr "uždaryti"
+
+#: includes/visual-composer/params/iconpicker.php:23
+msgid "close circle"
+msgstr "uždarymo ženklas apskritime"
+
+#: includes/visual-composer/params/iconpicker.php:24
+#: includes/visual-composer/params/iconpicker.php:166
+msgid "angle up"
+msgstr "rodyklė aukštyn"
+
+#: includes/visual-composer/params/iconpicker.php:25
+msgid "angle up circle"
+msgstr "rodyklė aukštyn apskritime"
+
+#: includes/visual-composer/params/iconpicker.php:26
+#: includes/visual-composer/params/iconpicker.php:167
+msgid "angle right"
+msgstr "rodyklė dešinėn"
+
+#: includes/visual-composer/params/iconpicker.php:27
+msgid "angle right circle"
+msgstr "rodyklė dešinėn apskritime"
+
+#: includes/visual-composer/params/iconpicker.php:28
+#: includes/visual-composer/params/iconpicker.php:168
+msgid "angle left"
+msgstr "rodyklė kairėn"
+
+#: includes/visual-composer/params/iconpicker.php:29
+msgid "angle left circle"
+msgstr "rodyklė kairėn apskritime"
+
+#: includes/visual-composer/params/iconpicker.php:30
+#: includes/visual-composer/params/iconpicker.php:169
+msgid "angle down"
+msgstr "rodyklė žemyn"
+
+#: includes/visual-composer/params/iconpicker.php:31
+msgid "angle down circle"
+msgstr "rodyklė žemyn apskritime"
+
+#: includes/visual-composer/params/iconpicker.php:32
+#: includes/visual-composer/params/iconpicker.php:170
+msgid "wallet"
+msgstr "piniginė"
+
+#: includes/visual-composer/params/iconpicker.php:33
+#: includes/visual-composer/params/iconpicker.php:171
+msgid "volume2"
+msgstr "didelis garsumas"
+
+#: includes/visual-composer/params/iconpicker.php:34
+#: includes/visual-composer/params/iconpicker.php:172
+msgid "volume1"
+msgstr "mažas garsumas"
+
+#: includes/visual-composer/params/iconpicker.php:36
+#: includes/visual-composer/params/iconpicker.php:174
+msgid "video"
+msgstr "vaizdo įrašas"
+
+#: includes/visual-composer/params/iconpicker.php:37
+#: includes/visual-composer/params/iconpicker.php:175
+msgid "user"
+msgstr "naudotojas"
+
+#: includes/visual-composer/params/iconpicker.php:38
+#: includes/visual-composer/params/iconpicker.php:176
+msgid "upload"
+msgstr "įkelti"
+
+#: includes/visual-composer/params/iconpicker.php:39
+#: includes/visual-composer/params/iconpicker.php:177
+msgid "unlock"
+msgstr "atrakinti"
+
+#: includes/visual-composer/params/iconpicker.php:40
+#: includes/visual-composer/params/iconpicker.php:178
+msgid "umbrella"
+msgstr "skėtis"
+
+#: includes/visual-composer/params/iconpicker.php:41
+#: includes/visual-composer/params/iconpicker.php:179
+msgid "trash"
+msgstr "šiukšliadėžė"
+
+#: includes/visual-composer/params/iconpicker.php:42
+#: includes/visual-composer/params/iconpicker.php:180
+msgid "tools"
+msgstr "įrankiai"
+
+#: includes/visual-composer/params/iconpicker.php:43
+#: includes/visual-composer/params/iconpicker.php:181
+msgid "timer"
+msgstr "laikmatis"
+
+#: includes/visual-composer/params/iconpicker.php:44
+#: includes/visual-composer/params/iconpicker.php:182
+msgid "ticket"
+msgstr "bilietas"
+
+#: includes/visual-composer/params/iconpicker.php:45
+#: includes/visual-composer/params/iconpicker.php:183
+msgid "target"
+msgstr "taikinys"
+
+#: includes/visual-composer/params/iconpicker.php:46
+#: includes/visual-composer/params/iconpicker.php:184
+msgid "sun"
+msgstr "saulė"
+
+#: includes/visual-composer/params/iconpicker.php:47
+#: includes/visual-composer/params/iconpicker.php:185
+msgid "study"
+msgstr "studijos"
+
+#: includes/visual-composer/params/iconpicker.php:48
+#: includes/visual-composer/params/iconpicker.php:186
+msgid "stopwatch"
+msgstr "chronometras"
+
+#: includes/visual-composer/params/iconpicker.php:49
+#: includes/visual-composer/params/iconpicker.php:187
+msgid "star"
+msgstr "žvaigždė"
+
+#: includes/visual-composer/params/iconpicker.php:50
+#: includes/visual-composer/params/iconpicker.php:188
+msgid "speaker"
+msgstr "garsiakalbis"
+
+#: includes/visual-composer/params/iconpicker.php:51
+#: includes/visual-composer/params/iconpicker.php:189
+msgid "signal"
+msgstr "signalas"
+
+#: includes/visual-composer/params/iconpicker.php:52
+#: includes/visual-composer/params/iconpicker.php:190
+msgid "shuffle"
+msgstr "maišyti"
+
+#: includes/visual-composer/params/iconpicker.php:53
+#: includes/visual-composer/params/iconpicker.php:191
+msgid "shopbag"
+msgstr "pirkinių krepšys"
+
+#: includes/visual-composer/params/iconpicker.php:54
+#: includes/visual-composer/params/iconpicker.php:192
+msgid "share"
+msgstr "dalintis"
+
+#: includes/visual-composer/params/iconpicker.php:55
+#: includes/visual-composer/params/iconpicker.php:193
+msgid "server"
+msgstr "serveris"
+
+#: includes/visual-composer/params/iconpicker.php:56
+#: includes/visual-composer/params/iconpicker.php:194
+msgid "search"
+msgstr "ieškoti"
+
+#: includes/visual-composer/params/iconpicker.php:57
+#: includes/visual-composer/params/iconpicker.php:195
+msgid "science"
+msgstr "mokslas"
+
+#: includes/visual-composer/params/iconpicker.php:58
+#: includes/visual-composer/params/iconpicker.php:196
+msgid "ribbon"
+msgstr "juostelė"
+
+#: includes/visual-composer/params/iconpicker.php:59
+#: includes/visual-composer/params/iconpicker.php:197
+msgid "repeat"
+msgstr "kartoti"
+
+#: includes/visual-composer/params/iconpicker.php:60
+#: includes/visual-composer/params/iconpicker.php:198
+msgid "refresh"
+msgstr "atnaujinti"
+
+#: includes/visual-composer/params/iconpicker.php:61
+#: includes/visual-composer/params/iconpicker.php:199
+msgid "refresh cloud"
+msgstr "atnaujinti debesyje"
+
+#: includes/visual-composer/params/iconpicker.php:62
+#: includes/visual-composer/params/iconpicker.php:200
+msgid "radio"
+msgstr "radijas"
+
+#: includes/visual-composer/params/iconpicker.php:63
+#: includes/visual-composer/params/iconpicker.php:201
+msgid "print"
+msgstr "spausdinti"
+
+#: includes/visual-composer/params/iconpicker.php:64
+#: includes/visual-composer/params/iconpicker.php:202
+msgid "prev"
+msgstr "ankstesnis"
+
+#: includes/visual-composer/params/iconpicker.php:65
+#: includes/visual-composer/params/iconpicker.php:203
+msgid "power"
+msgstr "maitinimas"
+
+#: includes/visual-composer/params/iconpicker.php:66
+#: includes/visual-composer/params/iconpicker.php:204
+msgid "portfolio"
+msgstr "darbų aplankas"
+
+#: includes/visual-composer/params/iconpicker.php:67
+#: includes/visual-composer/params/iconpicker.php:205
+msgid "plus"
+msgstr "pliusas"
+
+#: includes/visual-composer/params/iconpicker.php:68
+#: includes/visual-composer/params/iconpicker.php:206
+msgid "play"
+msgstr "paleisti"
+
+#: includes/visual-composer/params/iconpicker.php:69
+#: includes/visual-composer/params/iconpicker.php:207
+msgid "plane"
+msgstr "lėktuvas"
+
+#: includes/visual-composer/params/iconpicker.php:70
+#: includes/visual-composer/params/iconpicker.php:208
+msgid "photo gallery"
+msgstr "nuotraukų galerija"
+
+#: includes/visual-composer/params/iconpicker.php:71
+#: includes/visual-composer/params/iconpicker.php:209
+msgid "phone"
+msgstr "telefonas"
+
+#: includes/visual-composer/params/iconpicker.php:72
+#: includes/visual-composer/params/iconpicker.php:210
+msgid "pen"
+msgstr "rašiklis"
+
+#: includes/visual-composer/params/iconpicker.php:73
+#: includes/visual-composer/params/iconpicker.php:211
+msgid "paper plane"
+msgstr "popierinis lėktuvėlis"
+
+#: includes/visual-composer/params/iconpicker.php:74
+#: includes/visual-composer/params/iconpicker.php:212
+msgid "paint"
+msgstr "dažai"
+
+#: includes/visual-composer/params/iconpicker.php:75
+#: includes/visual-composer/params/iconpicker.php:213
+msgid "piggy"
+msgstr "taupyklė"
+
+#: includes/visual-composer/params/iconpicker.php:76
+#: includes/visual-composer/params/iconpicker.php:214
+msgid "notebook"
+msgstr "užrašų knygelė"
+
+#: includes/visual-composer/params/iconpicker.php:77
+#: includes/visual-composer/params/iconpicker.php:215
+msgid "note"
+msgstr "pastaba"
+
+#: includes/visual-composer/params/iconpicker.php:78
+#: includes/visual-composer/params/iconpicker.php:216
+msgid "next"
+msgstr "kitas"
+
+#: includes/visual-composer/params/iconpicker.php:79
+#: includes/visual-composer/params/iconpicker.php:217
+msgid "news paper"
+msgstr "laikraštis"
+
+#: includes/visual-composer/params/iconpicker.php:80
+#: includes/visual-composer/params/iconpicker.php:218
+msgid "musiclist"
+msgstr "grojaraštis"
+
+#: includes/visual-composer/params/iconpicker.php:81
+#: includes/visual-composer/params/iconpicker.php:219
+msgid "music"
+msgstr "muzika"
+
+#: includes/visual-composer/params/iconpicker.php:82
+#: includes/visual-composer/params/iconpicker.php:220
+msgid "mouse"
+msgstr "pelė"
+
+#: includes/visual-composer/params/iconpicker.php:83
+#: includes/visual-composer/params/iconpicker.php:221
+msgid "more"
+msgstr "daugiau"
+
+#: includes/visual-composer/params/iconpicker.php:84
+#: includes/visual-composer/params/iconpicker.php:222
+msgid "moon"
+msgstr "mėnulis"
+
+#: includes/visual-composer/params/iconpicker.php:85
+#: includes/visual-composer/params/iconpicker.php:223
+msgid "monitor"
+msgstr "monitorius"
+
+#: includes/visual-composer/params/iconpicker.php:86
+#: includes/visual-composer/params/iconpicker.php:224
+msgid "micro"
+msgstr "mikrofonas"
+
+#: includes/visual-composer/params/iconpicker.php:87
+#: includes/visual-composer/params/iconpicker.php:225
+msgid "menu"
+msgstr "meniu"
+
+#: includes/visual-composer/params/iconpicker.php:88
+#: includes/visual-composer/params/iconpicker.php:226
+msgid "map"
+msgstr "žemėlapis"
+
+#: includes/visual-composer/params/iconpicker.php:89
+#: includes/visual-composer/params/iconpicker.php:227
+msgid "map marker"
+msgstr "žemėlapio žymeklis"
+
+#: includes/visual-composer/params/iconpicker.php:90
+#: includes/visual-composer/params/iconpicker.php:228
+msgid "mail"
+msgstr "paštas"
+
+#: includes/visual-composer/params/iconpicker.php:91
+#: includes/visual-composer/params/iconpicker.php:229
+msgid "mail open"
+msgstr "atvertas laiškas"
+
+#: includes/visual-composer/params/iconpicker.php:92
+#: includes/visual-composer/params/iconpicker.php:230
+msgid "mail open file"
+msgstr "laiškas su dokumentu"
+
+#: includes/visual-composer/params/iconpicker.php:93
+#: includes/visual-composer/params/iconpicker.php:231
+msgid "magnet"
+msgstr "magnetas"
+
+#: includes/visual-composer/params/iconpicker.php:94
+#: includes/visual-composer/params/iconpicker.php:232
+msgid "loop"
+msgstr "ciklas"
+
+#: includes/visual-composer/params/iconpicker.php:95
+#: includes/visual-composer/params/iconpicker.php:233
+msgid "look"
+msgstr "peržiūra"
+
+#: includes/visual-composer/params/iconpicker.php:96
+#: includes/visual-composer/params/iconpicker.php:234
+msgid "lock"
+msgstr "užrakinti"
+
+#: includes/visual-composer/params/iconpicker.php:97
+#: includes/visual-composer/params/iconpicker.php:235
+msgid "lintern"
+msgstr "žibintuvėlis"
+
+#: includes/visual-composer/params/iconpicker.php:98
+#: includes/visual-composer/params/iconpicker.php:236
+msgid "link"
+msgstr "nuoroda"
+
+#: includes/visual-composer/params/iconpicker.php:99
+#: includes/visual-composer/params/iconpicker.php:237
+msgid "like"
+msgstr "patinka"
+
+#: includes/visual-composer/params/iconpicker.php:100
+#: includes/visual-composer/params/iconpicker.php:238
+msgid "light"
+msgstr "šviesa"
+
+#: includes/visual-composer/params/iconpicker.php:101
+#: includes/visual-composer/params/iconpicker.php:239
+msgid "less"
+msgstr "mažiau"
+
+#: includes/visual-composer/params/iconpicker.php:102
+#: includes/visual-composer/params/iconpicker.php:240
+msgid "keypad"
+msgstr "klaviatūra"
+
+#: includes/visual-composer/params/iconpicker.php:103
+#: includes/visual-composer/params/iconpicker.php:241
+msgid "junk"
+msgstr "šlamštas"
+
+#: includes/visual-composer/params/iconpicker.php:104
+#: includes/visual-composer/params/iconpicker.php:242
+msgid "info"
+msgstr "informacija"
+
+#: includes/visual-composer/params/iconpicker.php:105
+#: includes/visual-composer/params/iconpicker.php:243
+msgid "home"
+msgstr "pradžia"
+
+#: includes/visual-composer/params/iconpicker.php:106
+#: includes/visual-composer/params/iconpicker.php:244
+msgid "help2"
+msgstr "pagalba (2)"
+
+#: includes/visual-composer/params/iconpicker.php:107
+#: includes/visual-composer/params/iconpicker.php:245
+msgid "help1"
+msgstr "pagalba (1)"
+
+#: includes/visual-composer/params/iconpicker.php:108
+#: includes/visual-composer/params/iconpicker.php:246
+msgid "graph3"
+msgstr "diagrama (3)"
+
+#: includes/visual-composer/params/iconpicker.php:109
+#: includes/visual-composer/params/iconpicker.php:247
+msgid "graph2"
+msgstr "diagrama (2)"
+
+#: includes/visual-composer/params/iconpicker.php:110
+#: includes/visual-composer/params/iconpicker.php:248
+msgid "graph1"
+msgstr "diagrama (1)"
+
+#: includes/visual-composer/params/iconpicker.php:111
+#: includes/visual-composer/params/iconpicker.php:249
+msgid "graph"
+msgstr "diagrama"
+
+#: includes/visual-composer/params/iconpicker.php:112
+#: includes/visual-composer/params/iconpicker.php:250
+msgid "global"
+msgstr "pasaulis"
+
+#: includes/visual-composer/params/iconpicker.php:113
+#: includes/visual-composer/params/iconpicker.php:251
+msgid "gleam"
+msgstr "spindesys"
+
+#: includes/visual-composer/params/iconpicker.php:114
+#: includes/visual-composer/params/iconpicker.php:252
+msgid "glasses"
+msgstr "akiniai"
+
+#: includes/visual-composer/params/iconpicker.php:115
+#: includes/visual-composer/params/iconpicker.php:253
+msgid "gift"
+msgstr "dovana"
+
+#: includes/visual-composer/params/iconpicker.php:116
+#: includes/visual-composer/params/iconpicker.php:254
+msgid "folder"
+msgstr "aplankas"
+
+#: includes/visual-composer/params/iconpicker.php:117
+#: includes/visual-composer/params/iconpicker.php:255
+msgid "flag"
+msgstr "vėliava"
+
+#: includes/visual-composer/params/iconpicker.php:118
+#: includes/visual-composer/params/iconpicker.php:256
+msgid "filter"
+msgstr "filtras"
+
+#: includes/visual-composer/params/iconpicker.php:119
+#: includes/visual-composer/params/iconpicker.php:257
+msgid "file"
+msgstr "failas"
+
+#: includes/visual-composer/params/iconpicker.php:120
+#: includes/visual-composer/params/iconpicker.php:258
+msgid "expand1"
+msgstr "išskleisti (1)"
+
+#: includes/visual-composer/params/iconpicker.php:121
+msgid "exapnd2"
+msgstr "išskleisti (2)"
+
+#: includes/visual-composer/params/iconpicker.php:122
+#: includes/visual-composer/params/iconpicker.php:259
+msgid "edit"
+msgstr "redaguoti"
+
+#: includes/visual-composer/params/iconpicker.php:123
+#: includes/visual-composer/params/iconpicker.php:260
+msgid "drop"
+msgstr "lašas"
+
+#: includes/visual-composer/params/iconpicker.php:124
+#: includes/visual-composer/params/iconpicker.php:261
+msgid "drawer"
+msgstr "stalčius"
+
+#: includes/visual-composer/params/iconpicker.php:125
+#: includes/visual-composer/params/iconpicker.php:262
+msgid "download"
+msgstr "atsisiųsti"
+
+#: includes/visual-composer/params/iconpicker.php:126
+#: includes/visual-composer/params/iconpicker.php:263
+msgid "display2"
+msgstr "ekranas (2)"
+
+#: includes/visual-composer/params/iconpicker.php:127
+#: includes/visual-composer/params/iconpicker.php:264
+msgid "display1"
+msgstr "ekranas (1)"
+
+#: includes/visual-composer/params/iconpicker.php:128
+#: includes/visual-composer/params/iconpicker.php:265
+msgid "diskette"
+msgstr "diskelis"
+
+#: includes/visual-composer/params/iconpicker.php:129
+#: includes/visual-composer/params/iconpicker.php:266
+msgid "date"
+msgstr "data"
+
+#: includes/visual-composer/params/iconpicker.php:130
+#: includes/visual-composer/params/iconpicker.php:267
+msgid "cup"
+msgstr "taurė"
+
+#: includes/visual-composer/params/iconpicker.php:131
+#: includes/visual-composer/params/iconpicker.php:268
+msgid "culture"
+msgstr "kultūra"
+
+#: includes/visual-composer/params/iconpicker.php:132
+#: includes/visual-composer/params/iconpicker.php:269
+msgid "crop"
+msgstr "apkirpti"
+
+#: includes/visual-composer/params/iconpicker.php:133
+#: includes/visual-composer/params/iconpicker.php:270
+msgid "credit"
+msgstr "mokėjimo kortelė"
+
+#: includes/visual-composer/params/iconpicker.php:134
+#: includes/visual-composer/params/iconpicker.php:271
+msgid "copy file"
+msgstr "kopijuoti failą"
+
+#: includes/visual-composer/params/iconpicker.php:135
+#: includes/visual-composer/params/iconpicker.php:272
+msgid "config"
+msgstr "nustatymai"
+
+#: includes/visual-composer/params/iconpicker.php:136
+#: includes/visual-composer/params/iconpicker.php:273
+msgid "compass"
+msgstr "kompasas"
+
+#: includes/visual-composer/params/iconpicker.php:137
+#: includes/visual-composer/params/iconpicker.php:274
+msgid "comment"
+msgstr "komentaras"
+
+#: includes/visual-composer/params/iconpicker.php:138
+#: includes/visual-composer/params/iconpicker.php:275
+msgid "coffee"
+msgstr "kava"
+
+#: includes/visual-composer/params/iconpicker.php:139
+#: includes/visual-composer/params/iconpicker.php:276
+msgid "cloud"
+msgstr "debesis"
+
+#: includes/visual-composer/params/iconpicker.php:140
+#: includes/visual-composer/params/iconpicker.php:277
+msgid "clock"
+msgstr "laikrodis"
+
+#: includes/visual-composer/params/iconpicker.php:141
+#: includes/visual-composer/params/iconpicker.php:278
+msgid "check"
+msgstr "varnelė"
+
+#: includes/visual-composer/params/iconpicker.php:142
+#: includes/visual-composer/params/iconpicker.php:279
+msgid "chat"
+msgstr "pokalbis"
+
+#: includes/visual-composer/params/iconpicker.php:143
+#: includes/visual-composer/params/iconpicker.php:280
+msgid "cart"
+msgstr "krepšelis"
+
+#: includes/visual-composer/params/iconpicker.php:144
+#: includes/visual-composer/params/iconpicker.php:281
+msgid "camera"
+msgstr "fotoaparatas"
+
+#: includes/visual-composer/params/iconpicker.php:145
+#: includes/visual-composer/params/iconpicker.php:282
+msgid "call"
+msgstr "skambutis"
+
+#: includes/visual-composer/params/iconpicker.php:146
+#: includes/visual-composer/params/iconpicker.php:283
+msgid "calculator"
+msgstr "skaičiuotuvas"
+
+#: includes/visual-composer/params/iconpicker.php:147
+#: includes/visual-composer/params/iconpicker.php:284
+msgid "browser"
+msgstr "naršyklė"
+
+#: includes/visual-composer/params/iconpicker.php:148
+msgid "box2"
+msgstr "dėžutė (2)"
+
+#: includes/visual-composer/params/iconpicker.php:149
+#: includes/visual-composer/params/iconpicker.php:285
+msgid "box1"
+msgstr "dėžutė (1)"
+
+#: includes/visual-composer/params/iconpicker.php:150
+#: includes/visual-composer/params/iconpicker.php:286
+msgid "bookmarks"
+msgstr "žymelės"
+
+#: includes/visual-composer/params/iconpicker.php:151
+#: includes/visual-composer/params/iconpicker.php:287
+msgid "bicycle"
+msgstr "dviratis"
+
+#: includes/visual-composer/params/iconpicker.php:152
+#: includes/visual-composer/params/iconpicker.php:288
+msgid "bell"
+msgstr "varpelis"
+
+#: includes/visual-composer/params/iconpicker.php:153
+#: includes/visual-composer/params/iconpicker.php:289
+msgid "battery"
+msgstr "baterija"
+
+#: includes/visual-composer/params/iconpicker.php:154
+#: includes/visual-composer/params/iconpicker.php:290
+msgid "ball"
+msgstr "kamuolys"
+
+#: includes/visual-composer/params/iconpicker.php:155
+#: includes/visual-composer/params/iconpicker.php:291
+msgid "back"
+msgstr "atgal"
+
+#: includes/visual-composer/params/iconpicker.php:156
+#: includes/visual-composer/params/iconpicker.php:292
+msgid "attention"
+msgstr "dėmesio"
+
+#: includes/visual-composer/params/iconpicker.php:157
+#: includes/visual-composer/params/iconpicker.php:293
+msgid "anchor"
+msgstr "inkaras"
+
+#: includes/visual-composer/params/iconpicker.php:158
+#: includes/visual-composer/params/iconpicker.php:294
+msgid "albums"
+msgstr "albumai"
+
+#: includes/visual-composer/params/iconpicker.php:159
+#: includes/visual-composer/params/iconpicker.php:295
+msgid "alarm"
+msgstr "žadintuvas"
+
+#: includes/visual-composer/params/iconpicker.php:160
+#: includes/visual-composer/params/iconpicker.php:296
+msgid "airplay"
+msgstr "AirPlay"
+
+#: includes/visual-composer/params/iconpicker.php:161
+#: includes/visual-composer/params/iconpicker.php:297
+msgid "cloud upload"
+msgstr "įkelti į debesį"
+
+#: includes/visual-composer/params/iconpicker.php:162
+#: includes/visual-composer/params/iconpicker.php:298
+msgid "loud download"
+msgstr "atsisiųsti iš debesies"
+
+#: includes/woocommerce/admin/class-admin-product-categories.php:30
+#: includes/woocommerce/admin/class-admin-product-categories.php:118
+msgid "Categories Grid Title"
+msgstr "Kategorijų tinklelio pavadinimas"
+
+#: includes/woocommerce/admin/class-admin-product-categories.php:32
+#: includes/woocommerce/admin/class-admin-product-categories.php:121
+msgid "Enter a custom title to display in the \"Product Categories\" element."
+msgstr "Įveskite pavadinimą, kuris bus rodomas elemente „Gaminių kategorijos“."
+
+#: includes/woocommerce/admin/class-admin-product-categories.php:39
+#: includes/woocommerce/admin/class-admin-product-categories.php:131
+msgid "Menu Thumbnail"
+msgstr "Meniu miniatiūra"
+
+#: includes/woocommerce/quickview.php:17
+msgid "Show more"
+msgstr "Rodyti daugiau"
+
+#: includes/woocommerce/woocommerce-functions.php:275
+#, php-format
+msgid "%s products"
+msgstr "Gaminių: %s"
+
+#: includes/woocommerce/woocommerce-functions.php:321
+msgid "Tweet"
+msgstr "Dalintis Twitter"
+
+#: includes/woocommerce/woocommerce-functions.php:322
+msgid "Pin it"
+msgstr "Išsaugoti Pinterest"
+
+#: includes/woocommerce/woocommerce-functions.php:323
+msgid "Download image"
+msgstr "Atsisiųsti paveikslėlį"
+
+#: includes/woocommerce/woocommerce-functions.php:541
+msgid "Please fill in the required fields"
+msgstr "Užpildykite privalomus laukus"
+
+#: includes/woocommerce/woocommerce-template-functions.php:358
+msgid "Back"
+msgstr "Atgal"
+
+#: page.php:18 templates/page-sidebar.php:29
+msgid "Sorry, nothing to display."
+msgstr "Deja, nėra ką rodyti."
+
+#: pagination.php:12
+msgid "Older Posts"
+msgstr "Ankstesni įrašai"
+
+#: pagination.php:13
+msgid "Newer Posts"
+msgstr "Naujesni įrašai"
+
+#: search.php:8
+#, php-format
+msgid "%s Search Results for: %s"
+msgstr "Paieškos rezultatų: %s. Ieškota: %s"
+
+#: searchform.php:2
+msgid "Search .."
+msgstr "Ieškoti…"
+
+#: single.php:39
+msgid "By"
+msgstr "Autorius:"
+
+#: single.php:39
+msgid "on"
+msgstr "data:"
+
+#: single.php:49 template-parts/blog/content-classic.php:38
+#: template-parts/blog/content-grid.php:43
+#: template-parts/blog/content-list.php:29
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: single.php:71
+msgid "Posted in "
+msgstr "Kategorija: "
+
+#: single.php:93
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: single.php:97
+msgid "Next"
+msgstr "Kitas"
+
+#: single.php:152
+msgid "Related Posts"
+msgstr "Susiję įrašai"
+
+#: tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Žymos archyvas: %s"
+
+#: template-parts/blog/content-classic.php:47
+msgid "Leave a comment"
+msgstr "Rašyti komentarą"
+
+#: template-parts/blog/content-classic.php:47
+msgid "1 comment"
+msgstr "1 komentaras"
+
+#: template-parts/blog/content-classic.php:47
+msgid "% comments"
+msgstr "Komentarų: %"
+
+#: template-parts/blog/content-grid.php:54
+#: template-parts/blog/content-list.php:41
+msgid "More"
+msgstr "Plačiau"
+
+#: template-parts/blog/content-none.php:4
+#, php-format
+msgid "Ready to publish your first post? %sGet started here%s."
+msgstr "Pasiruošę paskelbti pirmąjį įrašą? %sPradėkite čia%s."
+
+#: template-parts/blog/content-none.php:8
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, pagal jūsų užklausą nieko nerasta. Pabandykite ieškoti kitais raktažodžiais."
+
+#: template-parts/blog/content-none.php:12
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Deja, nepavyko rasti to, ko ieškote."
+
+#. Template Name of the theme
+msgid "Blank"
+msgstr "Tuščias"
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "Viso pločio"
+
+#. Template Name of the theme
+msgid "Sidebar"
+msgstr "Šoninė juosta"
+
+#: 404.php:21
+msgid "Featured products"
+msgstr "Rekomenduojami gaminiai"
+
+#: functions.php:54
+msgid "Color"
+msgstr "Spalva"
+
+#: functions.php:55
+msgid "Image"
+msgstr "Paveikslėlis"
+
+#: functions.php:56
+msgid "Label"
+msgstr "Etiketė"
+
+#: functions.php:432
+msgid "Please enter a stronger password."
+msgstr "Įveskite stipresnį slaptažodį."
+
+#: functions.php:819
+msgid "Header Secondary (Right side)"
+msgstr "Papildoma antraštės sritis (dešinėje)"
+
+#: functions.php:820
+msgid "Mobile"
+msgstr "Mobiliesiems įrenginiams"
+
+#: includes/custom-styles.php:1274
+msgid "Out of stock"
+msgstr "Neturime"
+
+#: includes/visual-composer/deprecated/shortcodes/button.php:6
+msgid "Button with Text"
+msgstr "Mygtukas su tekstu"
+
+#: includes/visual-composer/deprecated/shortcodes/woocommerce/product-search.php:14
+msgid "Search store"
+msgstr "Ieškoti kataloge"
+
+#: includes/woocommerce/woocommerce-template-functions.php:34
+msgid "My account"
+msgstr "Mano paskyra"
+
+#: includes/woocommerce/woocommerce-template-functions.php:34
+msgid "Login"
+msgstr "Prisijungti"
+
+#: includes/woocommerce/woocommerce-template-functions.php:51
+#: template-parts/woocommerce/cart-panel.php:6
+msgid "Cart"
+msgstr "Krepšelis"
+
+#: template-parts/navigation/navigation-mobile.php:22
+#: template-parts/woocommerce/searchform.php:9
+msgid "Search products"
+msgstr "Ieškoti gaminių"
+
+#: template-parts/woocommerce/cart-panel.php:7
+msgid "Close"
+msgstr "Uždaryti"
+
+#: template-parts/woocommerce/searchform.php:27
+msgid "Showing all results"
+msgstr "Rodomi visi rezultatai"
+
+#: template-parts/woocommerce/searchform.php:28
+msgid "No products found."
+msgstr "Gaminių nerasta."
+
+#: functions.php:572
+msgid "Top Bar Menu"
+msgstr "Viršutinės juostos meniu"
+
+#: functions.php:573
+msgid "Main Menu"
+msgstr "Pagrindinis meniu"
+
+#: functions.php:574
+msgid "Right Menu"
+msgstr "Dešinysis meniu"
+
+#: functions.php:575
+msgid "Footer Menu"
+msgstr "Poraštės meniu"
+
+#: functions.php:970
+msgid "Visual Composer - Widgetised Sidebar"
+msgstr "Visual Composer – šoninė juosta su valdikliais"
+
+#: includes/woocommerce/woocommerce-template-functions.php:35
+msgid "My Account"
+msgstr "Mano paskyra"
+
+#: single.php:88
+msgid "Share"
+msgstr "Dalintis"
