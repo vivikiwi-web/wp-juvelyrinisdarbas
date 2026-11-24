@@ -46,3 +46,4 @@ auth.json
 
 # Unedited source photos are kept locally for processing, outside Git history.
 /project-files/catalog-photos/originals/
+/project-files/catalog-import/reports/

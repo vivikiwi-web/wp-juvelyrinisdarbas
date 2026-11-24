@@ -1,0 +1,553 @@
+{
+  "date": "2026-11-24",
+  "site": "http://juvelyrinisdarbas.local",
+  "manifest_sha256": "9f628b384c2e3d706f374e93e5a58e3a37e6aadbd404e31c6363f28f607ab68b",
+  "authorization": "Owner requested full import after reviewing the initial batch. New models imported as drafts; existing records preserved.",
+  "backup_folder": "/private/tmp/jd-full-import-20261124-KDQYJE",
+  "backup_validation": "Nonempty SQL; CREATE TABLE and dump completion marker checked; SHA-256 recorded. No test restore performed.",
+  "dry_run_actions": {
+    "skip_existing": 5,
+    "would_create_draft": 59
+  },
+  "created_products": [
+    1329,
+    1331,
+    1333,
+    1335,
+    1337,
+    1339,
+    1341,
+    1343,
+    1345,
+    1347,
+    1349,
+    1351,
+    1353,
+    1355,
+    1357,
+    1359,
+    1361,
+    1363,
+    1365,
+    1367,
+    1369,
+    1371,
+    1373,
+    1375,
+    1377,
+    1379,
+    1381,
+    1383,
+    1385,
+    1387,
+    1389,
+    1391,
+    1393,
+    1395,
+    1397,
+    1399,
+    1401,
+    1403,
+    1405,
+    1407,
+    1409,
+    1411,
+    1413,
+    1415,
+    1417,
+    1419,
+    1421,
+    1423,
+    1425,
+    1427,
+    1429,
+    1431,
+    1433,
+    1435,
+    1437,
+    1439,
+    1441,
+    1443,
+    1445
+  ],
+  "created_attachments": [
+    1328,
+    1330,
+    1332,
+    1334,
+    1336,
+    1338,
+    1340,
+    1342,
+    1344,
+    1346,
+    1348,
+    1350,
+    1352,
+    1354,
+    1356,
+    1358,
+    1360,
+    1362,
+    1364,
+    1366,
+    1368,
+    1370,
+    1372,
+    1374,
+    1376,
+    1378,
+    1380,
+    1382,
+    1384,
+    1386,
+    1388,
+    1390,
+    1392,
+    1394,
+    1396,
+    1398,
+    1400,
+    1402,
+    1404,
+    1406,
+    1408,
+    1410,
+    1412,
+    1414,
+    1416,
+    1418,
+    1420,
+    1422,
+    1424,
+    1426,
+    1428,
+    1430,
+    1432,
+    1434,
+    1436,
+    1438,
+    1440,
+    1442,
+    1444
+  ],
+  "created_terms": [],
+  "items": [
+    {
+      "sku": "JD-0001",
+      "action": "skip_existing",
+      "product_id": 1294,
+      "preview_url": "http://juvelyrinisdarbas.local/produktas/vestuviniai-ziedai-darna-jd-0001/?preview=true"
+    },
+    {
+      "sku": "JD-0002",
+      "action": "created_draft",
+      "product_id": 1329,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1329&preview=true"
+    },
+    {
+      "sku": "JD-0003",
+      "action": "created_draft",
+      "product_id": 1331,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1331&preview=true"
+    },
+    {
+      "sku": "JD-0004",
+      "action": "created_draft",
+      "product_id": 1333,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1333&preview=true"
+    },
+    {
+      "sku": "JD-0005",
+      "action": "created_draft",
+      "product_id": 1335,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1335&preview=true"
+    },
+    {
+      "sku": "JD-0006",
+      "action": "created_draft",
+      "product_id": 1337,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1337&preview=true"
+    },
+    {
+      "sku": "JD-0007",
+      "action": "created_draft",
+      "product_id": 1339,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1339&preview=true"
+    },
+    {
+      "sku": "JD-0008",
+      "action": "created_draft",
+      "product_id": 1341,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1341&preview=true"
+    },
+    {
+      "sku": "JD-0009",
+      "action": "created_draft",
+      "product_id": 1343,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1343&preview=true"
+    },
+    {
+      "sku": "JD-0010",
+      "action": "created_draft",
+      "product_id": 1345,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1345&preview=true"
+    },
+    {
+      "sku": "JD-0011",
+      "action": "created_draft",
+      "product_id": 1347,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1347&preview=true"
+    },
+    {
+      "sku": "JD-0012",
+      "action": "created_draft",
+      "product_id": 1349,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1349&preview=true"
+    },
+    {
+      "sku": "JD-0013",
+      "action": "created_draft",
+      "product_id": 1351,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1351&preview=true"
+    },
+    {
+      "sku": "JD-0014",
+      "action": "created_draft",
+      "product_id": 1353,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1353&preview=true"
+    },
+    {
+      "sku": "JD-0015",
+      "action": "created_draft",
+      "product_id": 1355,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1355&preview=true"
+    },
+    {
+      "sku": "JD-0016",
+      "action": "created_draft",
+      "product_id": 1357,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1357&preview=true"
+    },
+    {
+      "sku": "JD-0017",
+      "action": "created_draft",
+      "product_id": 1359,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1359&preview=true"
+    },
+    {
+      "sku": "JD-0018",
+      "action": "created_draft",
+      "product_id": 1361,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1361&preview=true"
+    },
+    {
+      "sku": "JD-0019",
+      "action": "created_draft",
+      "product_id": 1363,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1363&preview=true"
+    },
+    {
+      "sku": "JD-0020",
+      "action": "created_draft",
+      "product_id": 1365,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1365&preview=true"
+    },
+    {
+      "sku": "JD-0021",
+      "action": "created_draft",
+      "product_id": 1367,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1367&preview=true"
+    },
+    {
+      "sku": "JD-0022",
+      "action": "created_draft",
+      "product_id": 1369,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1369&preview=true"
+    },
+    {
+      "sku": "JD-0023",
+      "action": "created_draft",
+      "product_id": 1371,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1371&preview=true"
+    },
+    {
+      "sku": "JD-0024",
+      "action": "created_draft",
+      "product_id": 1373,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1373&preview=true"
+    },
+    {
+      "sku": "JD-0025",
+      "action": "created_draft",
+      "product_id": 1375,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1375&preview=true"
+    },
+    {
+      "sku": "JD-0026",
+      "action": "created_draft",
+      "product_id": 1377,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1377&preview=true"
+    },
+    {
+      "sku": "JD-0027",
+      "action": "created_draft",
+      "product_id": 1379,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1379&preview=true"
+    },
+    {
+      "sku": "JD-0028",
+      "action": "created_draft",
+      "product_id": 1381,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1381&preview=true"
+    },
+    {
+      "sku": "JD-0029",
+      "action": "created_draft",
+      "product_id": 1383,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1383&preview=true"
+    },
+    {
+      "sku": "JD-0030",
+      "action": "created_draft",
+      "product_id": 1385,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1385&preview=true"
+    },
+    {
+      "sku": "JD-0031",
+      "action": "created_draft",
+      "product_id": 1387,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1387&preview=true"
+    },
+    {
+      "sku": "JD-0032",
+      "action": "created_draft",
+      "product_id": 1389,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1389&preview=true"
+    },
+    {
+      "sku": "JD-0033",
+      "action": "skip_existing",
+      "product_id": 1296,
+      "preview_url": "http://juvelyrinisdarbas.local/produktas/suzadetuviu-ziedas-ausra-jd-0033/?preview=true"
+    },
+    {
+      "sku": "JD-0034",
+      "action": "created_draft",
+      "product_id": 1391,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1391&preview=true"
+    },
+    {
+      "sku": "JD-0035",
+      "action": "created_draft",
+      "product_id": 1393,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1393&preview=true"
+    },
+    {
+      "sku": "JD-0036",
+      "action": "created_draft",
+      "product_id": 1395,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1395&preview=true"
+    },
+    {
+      "sku": "JD-0037",
+      "action": "created_draft",
+      "product_id": 1397,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1397&preview=true"
+    },
+    {
+      "sku": "JD-0038",
+      "action": "created_draft",
+      "product_id": 1399,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1399&preview=true"
+    },
+    {
+      "sku": "JD-0039",
+      "action": "created_draft",
+      "product_id": 1401,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1401&preview=true"
+    },
+    {
+      "sku": "JD-0040",
+      "action": "created_draft",
+      "product_id": 1403,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1403&preview=true"
+    },
+    {
+      "sku": "JD-0041",
+      "action": "skip_existing",
+      "product_id": 1298,
+      "preview_url": "http://juvelyrinisdarbas.local/produktas/ziedas-banga-jd-0041/?preview=true"
+    },
+    {
+      "sku": "JD-0042",
+      "action": "created_draft",
+      "product_id": 1405,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1405&preview=true"
+    },
+    {
+      "sku": "JD-0043",
+      "action": "created_draft",
+      "product_id": 1407,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1407&preview=true"
+    },
+    {
+      "sku": "JD-0044",
+      "action": "created_draft",
+      "product_id": 1409,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1409&preview=true"
+    },
+    {
+      "sku": "JD-0045",
+      "action": "created_draft",
+      "product_id": 1411,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1411&preview=true"
+    },
+    {
+      "sku": "JD-0046",
+      "action": "created_draft",
+      "product_id": 1413,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1413&preview=true"
+    },
+    {
+      "sku": "JD-0047",
+      "action": "created_draft",
+      "product_id": 1415,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1415&preview=true"
+    },
+    {
+      "sku": "JD-0048",
+      "action": "created_draft",
+      "product_id": 1417,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1417&preview=true"
+    },
+    {
+      "sku": "JD-0049",
+      "action": "created_draft",
+      "product_id": 1419,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1419&preview=true"
+    },
+    {
+      "sku": "JD-0050",
+      "action": "created_draft",
+      "product_id": 1421,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1421&preview=true"
+    },
+    {
+      "sku": "JD-0051",
+      "action": "created_draft",
+      "product_id": 1423,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1423&preview=true"
+    },
+    {
+      "sku": "JD-0052",
+      "action": "skip_existing",
+      "product_id": 1300,
+      "preview_url": "http://juvelyrinisdarbas.local/produktas/auskarai-pusmenulis-jd-0052/?preview=true"
+    },
+    {
+      "sku": "JD-0053",
+      "action": "created_draft",
+      "product_id": 1425,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1425&preview=true"
+    },
+    {
+      "sku": "JD-0054",
+      "action": "skip_existing",
+      "product_id": 1302,
+      "preview_url": "http://juvelyrinisdarbas.local/produktas/pakabukas-raide-a-jd-0054/?preview=true"
+    },
+    {
+      "sku": "JD-0055",
+      "action": "created_draft",
+      "product_id": 1427,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1427&preview=true"
+    },
+    {
+      "sku": "JD-0056",
+      "action": "created_draft",
+      "product_id": 1429,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1429&preview=true"
+    },
+    {
+      "sku": "JD-0057",
+      "action": "created_draft",
+      "product_id": 1431,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1431&preview=true"
+    },
+    {
+      "sku": "JD-0058",
+      "action": "created_draft",
+      "product_id": 1433,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1433&preview=true"
+    },
+    {
+      "sku": "JD-0059",
+      "action": "created_draft",
+      "product_id": 1435,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1435&preview=true"
+    },
+    {
+      "sku": "JD-0060",
+      "action": "created_draft",
+      "product_id": 1437,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1437&preview=true"
+    },
+    {
+      "sku": "JD-0061",
+      "action": "created_draft",
+      "product_id": 1439,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1439&preview=true"
+    },
+    {
+      "sku": "JD-0062",
+      "action": "created_draft",
+      "product_id": 1441,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1441&preview=true"
+    },
+    {
+      "sku": "JD-0063",
+      "action": "created_draft",
+      "product_id": 1443,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1443&preview=true"
+    },
+    {
+      "sku": "JD-0064",
+      "action": "created_draft",
+      "product_id": 1445,
+      "preview_url": "http://juvelyrinisdarbas.local/?post_type=product&p=1445&preview=true"
+    }
+  ],
+  "verification": {
+    "verified_models": 64,
+    "existing_products_unchanged": 5,
+    "created_products": 59,
+    "created_attachments": 59,
+    "statuses": {
+      "publish": 5,
+      "draft": 59
+    },
+    "categories": {
+      "vestuviniai-ziedai": 31,
+      "suzadetuviu-ziedai": 9,
+      "ziedai": 11,
+      "auskarai": 7,
+      "pakabukai": 6
+    },
+    "errors": []
+  },
+  "repeat": {
+    "actions": {
+      "skip_existing": 64
+    },
+    "created_products": 0,
+    "created_attachments": 0,
+    "created_terms": 0,
+    "errors": []
+  },
+  "review_skus": [
+    "JD-0012",
+    "JD-0013"
+  ],
+  "errors": []
+}
