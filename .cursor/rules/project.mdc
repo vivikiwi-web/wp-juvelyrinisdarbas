@@ -1,0 +1,18 @@
+---
+description: "Juvelyrinis darbas: основной контекст и выбор проектного процесса"
+alwaysApply: true
+---
+
+Перед действиями прочитай `AGENTS.md` в корне этой темы и соблюдай его как основной источник требований. Ссылка на файл не означает, что его содержимое автоматически загружено.
+
+Открой документ процесса, соответствующий текущей задаче:
+
+- Savoy, товары, WooCommerce: `docs/workflows/savoy-woocommerce.md`.
+- Страницы, hero, WPBakery: `docs/workflows/wpbakery.md`.
+- Local, PHP, WP-CLI, база: `docs/workflows/wp-cli-local.md`.
+- Миграция, изделия, медиа, SEO: `docs/workflows/import.md`.
+- Панель и CF7: `docs/workflows/inquiry.md`.
+
+Перед реализацией ознакомься с `docs/decisions.md`. Выполняй конкретную текущую задачу владельца; `docs/roadmap.md` не разрешает автоматически выполнять все этапы. Факты аудита в `docs/audit-2026-11-24.md` — датированный снимок, а не подтверждение текущего состояния.
+
+При первом запуске проверь, что это правило отображается и применяется в Cursor. Формат: https://cursor.com/docs/rules.

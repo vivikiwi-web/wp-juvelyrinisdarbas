@@ -1,0 +1,42 @@
+# OS and editor temporary files. Keep shared Cursor rules tracked.
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Dependencies and caches (if introduced later).
+node_modules/
+vendor/
+.cache/
+.phpunit.cache/
+.phpunit.result.cache
+coverage/
+
+# Secrets and machine-specific settings.
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-cli.local.yml
+*.pem
+*.key
+auth.json
+.npmrc
+
+# Database exports, backups, logs and release archives.
+*.sql
+*.sql.*
+*.sqlite
+*.sqlite3
+*.log
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+/backups/
+/private/
+/tmp/
