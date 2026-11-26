@@ -23,6 +23,9 @@ function jd_catalog_category_menu_args( $args ) {
 add_filter( 'nm_shop_category_menu_args', 'jd_catalog_category_menu_args' );
 add_filter( 'nm_shop_sub_category_menu_args', 'jd_catalog_category_menu_args' );
 
+/** Category filters show names only. Thumbnail meta stays stored for later use. */
+add_filter( 'nm_category_menu_include_thumbnail', '__return_false' );
+
 add_filter( 'terms_clauses', function ( $clauses, $taxonomies, $args ) {
     if ( ! empty( $args['jd_catalog_navigation'] ) && in_array( 'product_cat', $taxonomies, true ) ) {
         $clauses['orderby'] = 'ORDER BY ' . jd_category_priority_sql( 't.slug' ) . ' ASC, t.name ASC, t.term_id ASC';
