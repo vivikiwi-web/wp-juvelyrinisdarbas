@@ -1,0 +1,6 @@
+// Savoy's hover bridge is 4px until its script measures the header.
+// The centered header leaves about 15px between the link and the full-width
+// submenu, so the pointer leaves "Katalogas" before it reaches the panel.
+.nm-menu .megamenu.full > .sub-menu > .nm-sub-menu-bridge {
+  min-height: 24px;
+}
