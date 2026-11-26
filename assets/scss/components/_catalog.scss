@@ -195,6 +195,26 @@
 
 .products li.jd-catalog-product.outofstock .nm-shop-loop-thumbnail > .woocommerce-LoopProduct-link::after { display: none; }
 
+// Savoy sizes this row for inline thumbnails. Their 15px offset is clipped,
+// so text-only names would sit partly outside the visible line.
+@media (min-width: 992px) {
+  #nm-shop-categories-wrap {
+    overflow: visible;
+  }
+
+  .nm-shop-menu .nm-shop-categories,
+  .nm-shop-menu .nm-shop-sub-categories {
+    margin-bottom: 0;
+    overflow: visible;
+  }
+
+  .nm-shop-menu .nm-shop-categories > li,
+  .nm-shop-menu .nm-shop-sub-categories li {
+    margin-bottom: 0;
+    vertical-align: baseline;
+  }
+}
+
 .jd-preferences-grid input:disabled,
 .jd-preferences-grid select:disabled,
 .jd-preferences-grid textarea:disabled { background: #f7f7f7; color: #999; cursor: not-allowed; }
