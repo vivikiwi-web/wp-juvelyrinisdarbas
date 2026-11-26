@@ -1,0 +1,293 @@
+// Desktop home hero. The mobile card (<=768px) stays in _hero-mobile.scss.
+// Only the existing banner on the home row is restyled.
+
+@media (min-width: 769px) {
+  .jd-home-hero {
+    .nm-banner.content-boxed .nm-banner-content {
+      padding: 0;
+    }
+
+    .nm-banner.content-boxed .nm-banner-content-inner {
+      max-width: none;
+      margin: 0;
+    }
+
+    // Percentage is of the banner, not the padded inner box. Inline max-width:45% stays larger.
+    .nm-banner-content-inner.h_left .nm-banner-text {
+      width: min(38%, 560px);
+      margin-left: 9%;
+      padding: 0;
+    }
+
+    .jd-banner-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 0 0 22px;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.4;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #d6ba84;
+    }
+
+    .jd-banner-eyebrow::before {
+      content: "";
+      flex: 0 0 auto;
+      width: 28px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    .nm-banner-text.small .nm-banner-title,
+    .nm-banner-text.medium .nm-banner-title,
+    .nm-banner-text.large .nm-banner-title,
+    .nm-banner-text.xlarge .nm-banner-title {
+      max-width: 9.3em;
+      margin: 0;
+      color: #f8f5ef;
+      font-weight: 400;
+      font-size: clamp(36px, 3.5vw, 58px);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      text-wrap: balance;
+    }
+
+    .nm-banner.text-color-light .nm-banner-subtitle {
+      max-width: 410px;
+      margin: 22px 0 0;
+      color: #d5d1ca;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 1.65;
+    }
+
+    .nm-banner.text-color-light .nm-banner-link.type-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      min-height: 50px;
+      margin: 28px 0 0;
+      padding: 14px 25px;
+      border: 1px solid #f6f2eb;
+      border-radius: var(--jd-radius-button);
+      background-color: #f6f2eb;
+      color: #292721;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.2;
+      text-decoration: none;
+      opacity: 1;
+      transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+    }
+
+    .no-touch .nm-banner.text-color-light .nm-banner-link.type-btn:hover,
+    .nm-banner.text-color-light .nm-banner-link.type-btn:hover {
+      background-color: #e5d2aa;
+      border-color: #e5d2aa;
+      color: #292721;
+      opacity: 1;
+    }
+
+    .nm-banner-slider.slick-dots-inside .slick-dots {
+      left: 9%;
+      bottom: 28px;
+      width: auto;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      transform: none;
+      text-align: left;
+      pointer-events: auto;
+    }
+
+    .nm-banner-slider .slick-dots li,
+    .nm-banner-slider .slick-dots li.slick-active {
+      margin: 0;
+    }
+
+    .nm-banner-slider .slick-dots li button,
+    .nm-banner-slider .slick-dots li.slick-active button {
+      position: relative;
+      box-sizing: border-box;
+      width: 32px;
+      height: 32px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .nm-banner-slider .slick-dots li button::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #b6b3ac;
+      transform: translate(-50%, -50%);
+      transition: width 0.35s ease, background-color 0.35s ease;
+    }
+
+    .nm-banner-slider .slick-dots li.slick-active button::before {
+      width: 25px;
+      height: 3px;
+      border-radius: 5px;
+      background-color: #d6ba84;
+    }
+
+    .nm-banner-slider.slick-slider .slick-prev,
+    .nm-banner-slider.slick-slider .slick-next,
+    .nm-banner-slider.slick-slider:hover .slick-prev,
+    .nm-banner-slider.slick-slider:hover .slick-next {
+      top: auto;
+      bottom: 30px;
+      left: auto;
+      width: 44px;
+      height: 44px;
+      margin: 0;
+      padding: 0;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      background: rgba(23, 22, 19, 0.6);
+      color: #f6f2eb;
+      text-align: center;
+      text-decoration: none;
+      opacity: 1;
+    }
+
+    .nm-banner-slider.slick-slider .slick-next,
+    .nm-banner-slider.slick-slider:hover .slick-next {
+      right: 30px;
+    }
+
+    .nm-banner-slider.slick-slider .slick-prev,
+    .nm-banner-slider.slick-slider:hover .slick-prev {
+      right: 84px;
+    }
+
+    .nm-banner-slider .slick-prev i,
+    .nm-banner-slider .slick-next i {
+      top: 0;
+      display: block;
+      width: auto;
+      font-size: 18px;
+      line-height: 42px;
+      color: inherit;
+    }
+
+    .nm-banner-slider .slick-prev:hover,
+    .nm-banner-slider .slick-next:hover,
+    .nm-banner-slider .slick-prev:not(.slick-disabled):hover,
+    .nm-banner-slider .slick-next:not(.slick-disabled):hover {
+      background: #f6f2eb;
+      border-color: #f6f2eb;
+      color: #292721;
+    }
+
+    .nm-banner-link.type-btn:focus-visible,
+    .nm-banner-slider .slick-prev:focus-visible,
+    .nm-banner-slider .slick-next:focus-visible,
+    .nm-banner-slider .slick-dots li button:focus-visible {
+      outline: 2px solid #e5c88e;
+      outline-offset: 3px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .jd-home-hero {
+    .nm-banner-content-inner.v_center {
+      align-items: flex-start;
+      padding-top: 18px;
+    }
+
+    .nm-banner-content-inner.h_left .nm-banner-text {
+      width: min(44%, 420px);
+    }
+
+    .jd-banner-eyebrow {
+      margin-bottom: 12px;
+      font-size: 12px;
+    }
+
+    .nm-banner-text.small .nm-banner-title,
+    .nm-banner-text.medium .nm-banner-title,
+    .nm-banner-text.large .nm-banner-title,
+    .nm-banner-text.xlarge .nm-banner-title {
+      max-width: none;
+      font-size: clamp(28px, 3.2vw, 36px);
+      line-height: 1.12;
+    }
+
+    .nm-banner.text-color-light .nm-banner-subtitle {
+      margin-top: 12px;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .nm-banner.text-color-light .nm-banner-link.type-btn {
+      min-height: 44px;
+      margin-top: 14px;
+      padding: 10px 18px;
+    }
+
+    .nm-banner-slider.slick-dots-inside .slick-dots {
+      bottom: 10px;
+    }
+
+    .nm-banner-slider.slick-slider .slick-prev,
+    .nm-banner-slider.slick-slider .slick-next,
+    .nm-banner-slider.slick-slider:hover .slick-prev,
+    .nm-banner-slider.slick-slider:hover .slick-next {
+      bottom: 12px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .nm-banner-slider.slick-slider .slick-next,
+    .nm-banner-slider.slick-slider:hover .slick-next {
+      right: 16px;
+    }
+
+    .nm-banner-slider.slick-slider .slick-prev,
+    .nm-banner-slider.slick-slider:hover .slick-prev {
+      right: 66px;
+    }
+
+    .nm-banner-slider .slick-prev i,
+    .nm-banner-slider .slick-next i {
+      font-size: 16px;
+      line-height: 38px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (pointer: coarse) {
+  .jd-home-hero .nm-banner-slider .slick-dots li button,
+  .jd-home-hero .nm-banner-slider .slick-dots li.slick-active button {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (min-width: 769px) and (prefers-reduced-motion: reduce) {
+  .jd-home-hero .nm-banner-slider .nm-banner-text-inner.nm-animated,
+  .jd-home-hero .nm-banner-slider .nm-banner-text-inner.nm-animated.fadeIn {
+    animation: none;
+    opacity: 1;
+  }
+
+  .jd-home-hero .nm-banner-link.type-btn,
+  .jd-home-hero .nm-banner-slider .slick-prev,
+  .jd-home-hero .nm-banner-slider .slick-next,
+  .jd-home-hero .nm-banner-slider .slick-dots li button::before {
+    transition: none;
+  }
+}

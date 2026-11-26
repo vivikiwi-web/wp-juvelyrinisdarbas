@@ -33,6 +33,7 @@ require_once get_stylesheet_directory() . '/inc/catalog-order.php';
 require_once get_stylesheet_directory() . '/inc/inquiry.php';
 require_once get_stylesheet_directory() . '/inc/inquiry-email.php';
 require_once get_stylesheet_directory() . '/inc/page-sections.php';
+require_once get_stylesheet_directory() . '/inc/hero-banner.php';
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
     require_once get_stylesheet_directory() . '/inc/catalog-cli.php';
 }
