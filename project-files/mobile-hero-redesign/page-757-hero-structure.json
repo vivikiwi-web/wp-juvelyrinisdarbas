@@ -1,0 +1,60 @@
+{
+    "page_id": 757,
+    "title": "Pagrindinis content",
+    "status": "publish",
+    "content_sha256": "7a4c1ddcd8ec7214d4f2229694ce82c38c0634a0f503ee140f94c9573320b4c4",
+    "banners": [
+        {
+            "subtitle_tag": "h2",
+            "link_source": "shop",
+            "link_type": "link_btn",
+            "text_color_scheme": "light",
+            "text_position_mobile": "alt",
+            "title": "Jūsų istorijai sukurti žiedai",
+            "shop_link_title": "Peržiūrėti žiedus",
+            "shop_link": "/kategorija/vestuviniai-ziedai/",
+            "image_id": "1288",
+            "subtitle": "Vestuvinių žiedų gamyba pagal jūsų individualius pageidavimus.",
+            "alt_image_id": "1535"
+        },
+        {
+            "subtitle_tag": "h2",
+            "link_source": "shop",
+            "link_type": "link_btn",
+            "text_color_scheme": "light",
+            "text_position_mobile": "alt",
+            "title": "Jūsų istorijai sukurti žiedai",
+            "shop_link_title": "Atrasti žiedus",
+            "shop_link": "/kategorija/suzadetuviu-ziedai/",
+            "image_id": "1289",
+            "subtitle": "Vestuvinių žiedų gamyba pagal jūsų individualius pageidavimus.",
+            "alt_image_id": "1536"
+        },
+        {
+            "subtitle_tag": "h2",
+            "link_source": "shop",
+            "link_type": "link_btn",
+            "text_color_scheme": "light",
+            "text_position_mobile": "alt",
+            "title": "Jūsų istorijai sukurti žiedai",
+            "shop_link_title": "Atrasti žiedus",
+            "shop_link": "/kategorija/juvelyriniai-dirbiniai/",
+            "image_id": "1290",
+            "subtitle": "Vestuvinių žiedų gamyba pagal jūsų individualius pageidavimus.",
+            "alt_image_id": "1537"
+        }
+    ],
+    "sliders": [
+        {
+            "arrows": "1",
+            "pagination": "1",
+            "infinite": "1",
+            "autoplay": "3000"
+        }
+    ],
+    "rows": [
+        {
+            "css": ".vc_custom_1795552529181{padding-right: 16px !important;padding-left: 16px !important;}"
+        }
+    ]
+}

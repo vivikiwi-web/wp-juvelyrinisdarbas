@@ -1,0 +1,250 @@
+// Mobile home hero. Desktop banners and other pages keep Savoy's layout.
+// The eyebrow exists in the banner HTML and stays hidden until this view.
+
+.jd-banner-eyebrow {
+  display: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .jd-home-hero {
+    .nm-banner.has-alt-image img.nm-banner-alt-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      object-position: center;
+      border-radius: var(--jd-radius-hero) var(--jd-radius-hero) 0 0;
+      background-color: #fff;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-content,
+    .nm-banner.content-boxed.alt-mobile-layout .nm-banner-content,
+    .nm-banner.content-boxed.full-width-parent.alt-mobile-layout .nm-banner-content {
+      position: relative;
+      z-index: 1;
+      margin-top: -24px;
+      padding: 24px;
+      background-color: #f6f2eb;
+      border: 0;
+      border-radius: var(--jd-radius-hero) var(--jd-radius-hero) 0 0;
+      box-shadow: none;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-text {
+      width: 100%;
+    }
+
+    .jd-banner-eyebrow {
+      display: block;
+      margin: 0 0 10px;
+      color: #8a6b37;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.4;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-text.small .nm-banner-title,
+    .nm-banner.alt-mobile-layout .nm-banner-text.medium .nm-banner-title,
+    .nm-banner.alt-mobile-layout .nm-banner-text.large .nm-banner-title,
+    .nm-banner.alt-mobile-layout .nm-banner-text.xlarge .nm-banner-title {
+      margin: 0;
+      color: #282828;
+      font-family: inherit;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 1.18;
+      white-space: normal;
+      overflow: visible;
+      text-overflow: clip;
+      overflow-wrap: break-word;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-subtitle {
+      display: block;
+      margin: 12px 0 0;
+      color: #65615b;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.6;
+      letter-spacing: normal;
+      text-transform: none;
+      white-space: normal;
+      overflow: visible;
+      overflow-wrap: break-word;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-link.type-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 48px;
+      margin: 22px 0 0;
+      padding: 12px 16px;
+      border: 0;
+      border-radius: var(--jd-radius-button);
+      background-color: #282828;
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.3;
+      text-align: center;
+      text-decoration: none;
+      white-space: normal;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-link.type-btn:hover,
+    .nm-banner.alt-mobile-layout .nm-banner-link.type-btn:focus {
+      background-color: #282828;
+      color: #fff;
+    }
+
+    .nm-banner.alt-mobile-layout .nm-banner-link.type-btn:focus-visible {
+      outline: 2px solid #8a6b37;
+      outline-offset: 3px;
+    }
+
+    // Slick sets an inline display on the arrows. Hide them only in this view.
+    .nm-banner-slider .slick-prev,
+    .nm-banner-slider .slick-next,
+    .nm-banner-slider .flickity-prev-next-button {
+      display: none !important;
+    }
+
+    .nm-banner-slider.pagination-mobile-outside {
+      padding-bottom: 52px;
+    }
+
+    .nm-banner-slider.pagination-mobile-outside .slick-dots,
+    .nm-banner-slider.pagination-mobile-outside .flickity-page-dots {
+      border: 0;
+      background: transparent;
+      padding: 4px 0 0;
+      pointer-events: auto;
+    }
+
+    .nm-banner-slider .slick-dots li,
+    .nm-banner-slider .slick-dots li.slick-active,
+    .nm-banner-slider .flickity-page-dots .dot {
+      width: auto;
+      height: auto;
+      margin: 0;
+    }
+
+    .nm-banner-slider .slick-dots li button,
+    .nm-banner-slider .slick-dots li.slick-active button,
+    .nm-banner-slider.pagination-mobile-outside .slick-dots li:not(.slick-active) button,
+    .nm-banner-slider.pagination-mobile-outside .slick-dots li.slick-active button {
+      position: relative;
+      box-sizing: border-box;
+      width: 36px;
+      height: 44px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background-color: transparent;
+      overflow: hidden;
+      pointer-events: auto;
+    }
+
+    .nm-banner-slider .slick-dots li button::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 6px;
+      height: 6px;
+      border-radius: 99px;
+      background-color: #cbc6bf;
+      transform: translate(-50%, -50%);
+      transition: width 0.35s ease, background-color 0.35s ease;
+    }
+
+    .nm-banner-slider .slick-dots li.slick-active button::before {
+      width: 20px;
+      height: 6px;
+      background-color: #8a6b37;
+    }
+
+    .nm-banner-slider .slick-dots li button:focus-visible {
+      outline: 2px solid #8a6b37;
+      outline-offset: 2px;
+    }
+
+    .nm-banner-slider .flickity-page-dots .dot {
+      width: 44px;
+      height: 44px;
+      background: transparent;
+      border: 0;
+      position: relative;
+      opacity: 1;
+    }
+
+    .nm-banner-slider .flickity-page-dots .dot::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 6px;
+      height: 6px;
+      border-radius: 99px;
+      background-color: #cbc6bf;
+      transform: translate(-50%, -50%);
+      transition: width 0.35s ease, background-color 0.35s ease;
+    }
+
+    .nm-banner-slider .flickity-page-dots .dot.is-selected::before {
+      width: 20px;
+      height: 6px;
+      background-color: #8a6b37;
+    }
+  }
+
+  // Savoy disables fadeIn for the alt mobile layout. The banners already
+  // request it, so restore that animation only inside this hero.
+  .csstransforms3d .jd-home-hero .nm-banner-slider .nm-banner.alt-mobile-layout .nm-banner-text-inner.nm-animated.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.55s;
+    animation-fill-mode: both;
+  }
+}
+
+@media (max-width: 400px) {
+  // Parent theme forces 16px !important on this title. Keep the readable size.
+  .jd-home-hero .nm-banner.alt-mobile-layout .nm-banner-text .nm-banner-title {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .jd-home-hero .nm-banner.alt-mobile-layout .nm-banner-content,
+  .jd-home-hero .nm-banner.content-boxed.full-width-parent.alt-mobile-layout .nm-banner-content {
+    margin-top: -16px;
+    padding: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .jd-home-hero .nm-banner.alt-mobile-layout .nm-banner-text .nm-banner-title {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 768px) and (prefers-reduced-motion: reduce) {
+  .csstransforms3d .jd-home-hero .nm-banner-slider .nm-banner.alt-mobile-layout .nm-banner-text-inner.nm-animated.fadeIn,
+  .jd-home-hero .nm-banner-slider .slick-dots li button::before {
+    animation: none;
+    transition: none;
+  }
+}

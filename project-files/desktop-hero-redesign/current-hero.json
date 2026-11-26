@@ -1,0 +1,40 @@
+{
+  "url": "http://juvelyrinisdarbas.local/",
+  "page_id": 757,
+  "source": "Read-only frontend HTML, 2026-11-26",
+  "banners": [
+    {
+      "class": "nm-banner content-boxed full-width-parent image-type-fluid has-alt-image text-color-light subtitle-below alt-mobile-layout",
+      "images": {
+        "nm-banner-alt-image img": "http://juvelyrinisdarbas.local/wp-content/uploads/2026/11/hero-banner-1-xs.webp"
+      },
+      "jd-banner-eyebrow": "Vestuviniai žiedai",
+      "nm-banner-title": "Jūsų istorijai sukurti žiedai",
+      "link": "/kategorija/vestuviniai-ziedai/",
+      "nm-banner-link nm-banner-shop-link type-btn": "Peržiūrėti žiedus",
+      "nm-banner-subtitle": "Vestuvinių žiedų gamyba pagal jūsų individualius pageidavimus."
+    },
+    {
+      "class": "nm-banner content-boxed full-width-parent image-type-fluid has-alt-image text-color-light subtitle-below alt-mobile-layout",
+      "images": {
+        "nm-banner-alt-image img": "http://juvelyrinisdarbas.local/wp-content/uploads/2026/11/hero-banner-2-xs.webp"
+      },
+      "jd-banner-eyebrow": "Sužadėtuvių žiedai",
+      "nm-banner-title": "Jūsų istorijai sukurti žiedai",
+      "link": "/kategorija/suzadetuviu-ziedai/",
+      "nm-banner-link nm-banner-shop-link type-btn": "Atrasti žiedus",
+      "nm-banner-subtitle": "Vestuvinių žiedų gamyba pagal jūsų individualius pageidavimus."
+    },
+    {
+      "class": "nm-banner content-boxed full-width-parent image-type-fluid has-alt-image text-color-light subtitle-below alt-mobile-layout",
+      "images": {
+        "nm-banner-alt-image img": "http://juvelyrinisdarbas.local/wp-content/uploads/2026/11/hero-banner-3-xs.webp"
+      },
+      "jd-banner-eyebrow": "Juvelyriniai dirbiniai",
+      "nm-banner-title": "Jūsų istorijai sukurti žiedai",
+      "link": "/kategorija/juvelyriniai-dirbiniai/",
+      "nm-banner-link nm-banner-shop-link type-btn": "Atrasti žiedus",
+      "nm-banner-subtitle": "Vestuvinių žiedų gamyba pagal jūsų individualius pageidavimus."
+    }
+  ]
+}
